@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9699c064e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <p>Voyageurs/Billets & Infos trajets/</p>
+            </div>
+            <nav>
+                
+            </nav>
+        </div>
+        <div>
+            <h1>réservation</h1>
+            <img src="imgs/logo-voyage-sncf.jpg" alt="logo voyage SNCF">
+        </div>
+        <hr>
+    </header>
+    <main>
+        <div>
+            <div>
+                <p><i class="fas fa-wheelchair"></i>Voyageur handicapé, rendez-vous sur votre <a href="#">espace dédié.</a></p>
+            </div>
+            <a href="">gérer mes résevations</a>
+        </div>
+        <p>*Champs obligatoires</p>
+        <form id="frmContact" action="">
+            <input type="checkbox" id="first-case" name="travel" value="" >
+            <label for="travel">aller et retour différent</label>
+            <div>
+                <div>
+                    <label for="title-text-1">Départ*</label>
+                    <input type="text">
+
+                </div>
+                <label for="start">Allez le</label>
+                <input type="date" id="start" name="trip-start"
+                 value="2021-01-11"
+                min="2021-01-11" max="2021-12-31">
+                <select name="" id="">
+                    <option value="">Départ à</option>
+                </select>
+                <select name="" id="">
+                    <option value="">17h</option>
+                </select>
+
+            </div>
+            <div>
+                <div>
+                    <label for="title-text-1">Arrivée*</label>
+                    <input type="text">
+                </div>
+                <label for="start">Retour le</label>
+                <input type="date" id="start" name="trip-start"
+                >
+                <select name="" id="">
+                    <option value="">Départ à</option>
+                </select>
+                <select name="" id="">
+                    <option value="">7h</option>
+                </select>
+            </div>
+            <hr>
+            <div>
+                <label for="title-banner">confort</label>
+                <input id="firstclass" type="radio" value="1ère classe">
+                <label for="firstclass">1ère classe</label>
+                <input id="secondclass" type="radio" value="2nde classe" checked>
+                <label for="secondclass">seconde classe</label>
+            </div>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <ul>
+            <li>Voyager avec votre animal de compagnie</li>
+        </ul>
+        <div>
+            <a href="">horaires seuls</a>
+            <a href="">rechercher</a>
+        </div>
+        <div>
+            <p>information sur les emissions de co2</p>
+        </div>
+    </footer>
+</body>
+</html>
