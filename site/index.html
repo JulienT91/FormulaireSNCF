@@ -32,63 +32,43 @@
         </div>
         <p>*Champs obligatoires</p>
         <form id="frmContact" action="">
-            <input type="checkbox" id="first-case" name="travel" value="" >
-            <label for="travel">aller et retour différent</label>
-            <div>
-                <div>
-                    <label for="title-text-1">Départ*</label>
-                    <input type="text">
-
-                </div>
-                <label for="start">Allez le</label>
-                <input type="date" id="start" name="trip-start"
-                 value="2021-01-11"
+            <input type="checkbox" id="first-case" name="travel" >
+            <label for="travel">aller et retour différent</label> 
+            <label for="title-text-1">Départ*</label>
+            <input type="text">
+            <label for="start">Allez le</label>
+            <input type="date" id="start" name="trip-start"
+                value="2021-01-11"
                 min="2021-01-11" max="2021-12-31">
-                <select name="" id="">
-                    <option value="">Départ à</option>
-                </select>
-                <select name="" id="">
-                    <option value="">17h</option>
-                </select>
-
-            </div>
-            <div>
-                <div>
-                    <label for="title-text-1">Arrivée*</label>
-                    <input type="text">
-                </div>
-                <label for="start">Retour le</label>
-                <input type="date" id="start" name="trip-start"
-                >
-                <select name="" id="">
-                    <option value="">Départ à</option>
-                </select>
-                <select name="" id="">
-                    <option value="">7h</option>
-                </select>
-            </div>
+            <select name="" id="">
+            <option value="">Départ à</option>
+            </select>
+            <select name="" id="">
+            <option value="">17h</option>
+            </select>
+            <label for="title-text-1">Arrivée*</label>
+            <input type="text">
+            <label for="start">Retour le</label>
+            <input type="date" id="start" name="trip-start">
+            <select name="" id="">
+            <option value="">Départ à</option>
+            </select>
+            <select name="" id="">
+            <option value="">7h</option>
+            </select>
+            <input type="checkbox" class="trajet" name="trajet" >
+            <label for="trajet">Trajet direct</label>
+            <label for="second-trajet">ou trajet via</label>
+            <input type="text">
             <hr>
-            <div>
-                <label for="title-banner">confort</label>
-                <input id="firstclass" type="radio" value="1ère classe">
-                <label for="firstclass">1ère classe</label>
-                <input id="secondclass" type="radio" value="2nde classe" checked>
-                <label for="secondclass">seconde classe</label>
-            </div>
+            <label for="title-banner">confort</label>
+            <input id="firstclass" type="radio" value="1ère classe">
+            <label for="firstclass">1ère classe</label>
+            <input id="secondclass" type="radio" value="2nde classe" checked>
+            <label for="secondclass">seconde classe</label>
         </form>
+
     </main>
-    <hr>
-    <footer>
-        <ul>
-            <li>Voyager avec votre animal de compagnie</li>
-        </ul>
-        <div>
-            <a href="">horaires seuls</a>
-            <a href="">rechercher</a>
-        </div>
-        <div>
-            <p>information sur les emissions de co2</p>
-        </div>
-    </footer>
+    <footer></footer>
 </body>
 </html>
