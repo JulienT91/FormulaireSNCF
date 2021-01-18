@@ -1,0 +1,34 @@
+/*ALL*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 5px;
+}
+h1 {
+  font-size: 3em;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.textEnd {
+  text-align: end;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.dFlex {
+  display: flex;
+}
+.sp_btween {
+  justify-content: space-between;
+}
+.grey-bgc {
+  background-color: grey;
+}
