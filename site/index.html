@@ -41,20 +41,20 @@
                 value="2021-01-11"
                 min="2021-01-11" max="2021-12-31">
             <select name="" id="">
-            <option value="">Départ à</option>
+                <option value="">Départ à</option>
             </select>
             <select name="" id="">
-            <option value="">17h</option>
+                <option value="">17h</option>
             </select>
             <label for="title-text-1">Arrivée*</label>
             <input type="text">
             <label for="start">Retour le</label>
             <input type="date" id="start" name="trip-start">
             <select name="" id="">
-            <option value="">Départ à</option>
+                <option value="">Départ à</option>
             </select>
             <select name="" id="">
-            <option value="">7h</option>
+                <option value="">7h</option>
             </select>
             <input type="checkbox" class="trajet" name="trajet" >
             <label for="trajet">Trajet direct</label>
@@ -66,9 +66,48 @@
             <label for="firstclass">1ère classe</label>
             <input id="secondclass" type="radio" value="2nde classe" checked>
             <label for="secondclass">seconde classe</label>
+            <hr>
+            <label for="passenger">Passager</label>
+            <select name="passenger" id="">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <a href="#">plus de 9 passager</a>
+            <div class="greypart">
+                <h2>passager 1</h2>
+                <hr>
+                <label for="Profil_age">Profil du passager</label>
+                <select name="passenger_age" id="">
+                    <option value="25-59ans">25-59ans</option>
+                </select>
+                <label for="Profil_abo">Carte et abonnement</label>
+                <select name="passenger_abo" id="">
+                    <option value="carte et abonnement">Carte et abonnement</option>
+                </select>
+                <label for="Code_avantage">Code Avantage</label>
+                <input type="text" placeholder="Saissisez ici votre code">
+                <label for="Profil_fidelity">Programme fidélité</label>
+                <select name="passenger_fidelity" id="">
+                    <option value="fidelity">Programme fidélité</option>
+                </select>
+            </div>
+            <hr>
+            <ul>
+                <li>
+                    <a href="#">Voyager avec votre animal de compagnie</a>
+                </li>
+            </ul>
         </form>
-
     </main>
-    <footer></footer>
+    <footer>
+        <div class="sr-only"></div>
+    </footer>
 </body>
 </html>
