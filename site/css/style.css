@@ -20,6 +20,9 @@ body {
 h1 {
   font-size: 3em;
 }
+h4 {
+  color: var(--greycolortwo);
+}
 a {
   text-decoration: none;
 }
