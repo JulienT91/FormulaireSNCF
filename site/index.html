@@ -17,16 +17,16 @@
                 
             </nav>
         </div>
-        <div>
-            <h1>réservation</h1>
+        <div class="resaTitle dFlex sp_btween">
+            <h1 class="uppercase">réservation</h1>
             <img src="imgs/logo-voyage-sncf.jpg" alt="logo voyage SNCF">
         </div>
         <hr>
     </header>
     <main>
-        <div>
+        <div class="dFlex sp_btween">
             <p><i class="fas fa-wheelchair"></i>Voyageur handicapé, rendez-vous sur votre <a href="#">espace dédié.</a></p>
-            <a href="">gérer mes résevations</a>
+            <a class="uppercase" href="">gérer mes résevations <i class="fas fa-angle-right"></i></a>
         </div>
         <p>*Champs obligatoires</p>
         <form id="frmContact" action="">
@@ -58,7 +58,7 @@
                     <option value="">Départ à</option>
                 </select>
                 <select name="" id="">
-                    <option value="">7h</option>
+                    <option value="">07h</option>
                 </select>
             </div>
             </div>
@@ -69,28 +69,31 @@
                 <input type="text">
             </div>
             <hr>
-            <label for="title-banner">confort</label>
+            <label class="uppercase" for="title-banner">confort</label>
             <input id="firstclass" type="radio" value="1ère classe">
             <label for="firstclass">1ère classe</label>
             <input id="secondclass" type="radio" value="2nde classe" checked>
             <label for="secondclass">seconde classe</label>
             <hr>
-            <label for="passenger">Passager</label>
-            <select name="passenger" id="">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-                <option value="7">7</option>
-                <option value="8">8</option>
-                <option value="9">9</option>
-            </select>
-            <a href="#">plus de 9 passager</a>
+            <div class="passengerOptions dFlex sp_btween">
+                <div>
+                    <label class="uppercase">Passager</label>
+                    <select name="passenger" id="">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                    </select>
+                </div>
+                <a class="uppercase" href="#">plus de 9 passager <i class="fas fa-angle-right"></i></a>
+            </div>
             <div class="greypart grey-bgc">
-                <h2>passager 1</h2>
-                <hr>
+                <h3 class="uppercase dFlex">passager 1</h3>
                 <label for="Profil_age">Profil du passager</label>
                 <select name="passenger_age" id="">
                     <option value="25-59ans">25-59ans</option>
@@ -111,19 +114,17 @@
             <hr>
             <ul>
                 <li>
-                    <a href="#">Voyager avec votre animal de compagnie</a>
+                    <a href="#"><i class="fas fa-angle-right"></i>Voyager avec votre animal de compagnie</a>
                 </li>
             </ul>
-            <div>
-                <input type="button" value="horraires seuls">
-                <input type="submit" value="Rechercher">
+            <div class="dFlex btnContainer sp_btween">
+                <input class="uppercase whitebtn" type="button" value="horraires seuls">
+                <input class="uppercase redbtn" type="submit" value="Rechercher">
             </div>
         </form>
     </main>
-    <footer>
-        <div>
-            <a href="">information sur les emissions de co2</a>
-        </div>
-    </footer>
+    <!--<footer class="textEnd">
+            <a href="" class="uppercase">information sur les emissions de co2 <i class="fas fa-angle-right"></i></a>
+    </footer>-->
 </body>
 </html>
