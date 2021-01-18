@@ -52,19 +52,22 @@ img {
 .greytext {
   color: var(--greycolortwo);
 }
-
 label {
   color: var(--greycolortwo);
+  font-weight: bold;
 }
 /*btn*/
 .whitebtn {
   padding: 0.6em;
   border-radius: 5px;
   color: var(--pinkcolor);
+  font-weight: bold;
 }
 
 .redbtn {
   padding: 0.6em;
   border-radius: 5px;
   background-color: var(--pinkcolor);
+  color: #ffffff;
+  font-weight: bold;
 }
