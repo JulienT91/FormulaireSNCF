@@ -1,4 +1,10 @@
 /*ALL*/
+:root {
+  --pinkcolor: #cb006c;
+  --greycolor: #f1f1f1;
+  --greycolortwo: #6f6f83;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,6 +23,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+hr {
+  color: var(--greycolortwo);
+}
 .textEnd {
   text-align: end;
 }
@@ -30,5 +39,28 @@ img {
   justify-content: space-between;
 }
 .grey-bgc {
-  background-color: grey;
+  background-color: var(--greycolor);
+}
+.pinktext {
+  color: var(--pinkcolor);
+}
+
+.greytext {
+  color: var(--greycolortwo);
+}
+
+label {
+  color: var(--greycolortwo);
+}
+/*btn*/
+.whitebtn {
+  padding: 0.6em;
+  border-radius: 5px;
+  color: var(--pinkcolor);
+}
+
+.redbtn {
+  padding: 0.6em;
+  border-radius: 5px;
+  background-color: var(--pinkcolor);
 }
