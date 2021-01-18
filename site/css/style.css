@@ -1,4 +1,5 @@
 /*ALL*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 :root {
   --pinkcolor: #cb006c;
   --greycolor: #f1f1f1;
@@ -9,9 +10,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 body {
   padding: 5px;
+  margin: auto;
+  width: 50%;
 }
 h1 {
   font-size: 3em;
@@ -20,8 +24,8 @@ a {
   text-decoration: none;
 }
 img {
-  max-width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 hr {
   color: var(--greycolortwo);
