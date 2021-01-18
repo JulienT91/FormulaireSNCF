@@ -30,8 +30,21 @@ img {
   width: auto;
   height: 100%;
 }
+label {
+  color: var(--greycolortwo);
+  font-weight: bold;
+}
 .separate {
   border-top: 1px solid var(--greycolortwo);
+}
+.align_center {
+  align-items: center;
+}
+.padding_10px {
+  padding: 0.65em 0;
+}
+.confort_div {
+  align-items: center;
 }
 .textEnd {
   text-align: end;
@@ -55,9 +68,8 @@ img {
 .greytext {
   color: var(--greycolortwo);
 }
-label {
-  color: var(--greycolortwo);
-  font-weight: bold;
+.greypart {
+  padding: 0.8em;
 }
 /*btn*/
 .whitebtn {
