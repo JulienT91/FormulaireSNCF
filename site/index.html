@@ -32,7 +32,7 @@
         <form id="frmContact" action="POST">
             <div class="grey-bgc">
                 <input type="checkbox" id="first-case" name="travel" >
-                <label class="bold"  for="travel">aller et retour différent</label> 
+                <label class="bold"  for="first-case" >aller et retour différent</label> 
             </div>
             <div class="form_options dFlex">
                 <div>
@@ -47,7 +47,7 @@
                     </div>
                     <div>
                         <input type="date">
-                        <select name="travelling" id="">
+                        <select name="travelling">
                             <option value="Départ">
                                 Départ à
                             </option>
@@ -99,8 +99,8 @@
             </div>
             <div class="dFlex sp_btween separate align_center">
                 <div class="passengerOptions">
-                    <label class="uppercase">Passager</label>
-                    <select name="passenger" id="">
+                    <label for="passenger" class="uppercase">Passager</label>
+                    <select name="passenger" id="passenger">
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -117,19 +117,19 @@
             <div class="greypart grey-bgc">
                 <h5 class="pinktext uppercase dFlex padding_10px ">passager 1</h5>
                 <label for="Profil_age">Profil du passager</label>
-                <select name="passenger_age" id="">
+                <select name="passenger_age" id="Profil_age">
                     <option value="25-59ans">25-59ans</option>
                 </select>
                 <div>
                     <label for="Profil_abo">Carte et abonnement</label>
-                    <select name="passenger_abo" id="">
+                    <select name="passenger_abo" id="Profil_abo">
                         <option value="carte et abonnement">Carte et abonnement</option>
                     </select>
                     <label for="Code_avantage">Code Avantage</label>
-                    <input type="text" placeholder="Saissisez ici votre code">
+                    <input type="text" id="Code_avantage" placeholder="Saissisez ici votre code">
                 </div>
                 <label for="Profil_fidelity">Programme fidélité</label>
-                <select name="passenger_fidelity" id="">
+                <select name="passenger_fidelity" id="Profil_fidelity">
                     <option value="fidelity">Programme fidélité</option>
                 </select>
             </div>
