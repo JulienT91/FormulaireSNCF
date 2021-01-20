@@ -31,7 +31,7 @@
         <p>*Champs obligatoires</p>
         <form id="frmContact" action="POST">
             <div class="grey-bgc">
-                <input type="checkbox" id="first-case" name="travel" >
+                <input type="checkbox" id="first-case" name="travel" required>
                 <label class="bold"  for="first-case" >aller et retour différent</label> 
             </div>
             <div class="form_options dFlex">
@@ -40,13 +40,13 @@
                         <h4>Départ *</h4>
                     </div>
                     <div>
-                        <input type="text">
+                        <input type="text" required>
                     </div>
                     <div>
                         <h4>Aller le*</h4>
                     </div>
                     <div>
-                        <input type="date">
+                        <input type="date" required>
                         <select name="travelling">
                             <option value="Départ">
                                 Départ à
@@ -57,7 +57,7 @@
                         </select>
                         <input type="time" min="00:00" max="23:00" required>
                         <div>
-                            <input type="checkbox" id="Trajet">
+                            <input type="checkbox" id="Trajet" required>
                             <label  for="Trajet">Trajet direct</label>
                             <label  for="Trajet">Ou trajet via</label>
                         </div>
@@ -68,13 +68,13 @@
                         <h4>Arrivé *</h4>
                     </div>
                     <div>
-                        <input type="text">
+                        <input type="text" required>
                     </div>
                     <div>
                         <h4>Retour le</h4>
                     </div>
                     <div>
-                        <input type="date">
+                        <input type="date" required>
                         <select name="travelling" id="Choose">
                             <option value="Départ">
                                 Départ à
@@ -100,7 +100,7 @@
             <div class="dFlex sp_btween separate align_center">
                 <div class="passengerOptions">
                     <label for="passenger" class="uppercase">Passager</label>
-                    <select name="passenger" id="passenger">
+                    <select name="passenger" id="passenger" required>
                         <option value="1">1</option>
                         <option value="2">2</option>
                         <option value="3">3</option>
@@ -117,8 +117,11 @@
             <div class="greypart grey-bgc">
                 <h5 class="pinktext uppercase dFlex padding_10px ">passager 1</h5>
                 <label for="Profil_age">Profil du passager</label>
-                <select name="passenger_age" id="Profil_age">
+                <select name="passenger_age" id="Profil_age" required>
+                    <option value="0-18ans">0-18ans</option>
+                    <option value="18-25ans">18-25ans</option>
                     <option value="25-59ans">25-59ans</option>
+                    <option value="plus de 59 ans">+59ans</option>
                 </select>
                 <div>
                     <label for="Profil_abo">Carte et abonnement</label>
@@ -137,8 +140,8 @@
                 <a class="greytext" href="#"><i class="fas fa-angle-right pinktext"></i>Voyager avec votre animal de compagnie</a>
             </div>
             <div class="dFlex btnContainer sp_btween">
-                <input class="uppercase whitebtn" type="button" value="horraires seuls">
-                <input class="uppercase redbtn" type="submit" value="Rechercher">
+                <input class="uppercase whitebtn" type="button" value="horraires seuls" required>
+                <input class="uppercase redbtn" type="submit" value="Rechercher" required>
             </div>
         </form>
     </main>
