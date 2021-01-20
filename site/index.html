@@ -31,7 +31,7 @@
         <p>*Champs obligatoires</p>
         <form id="frmContact" action="POST">
             <div class="grey-bgc">
-                <input type="checkbox" id="first-case" name="travel" required>
+                <input type="checkbox" id="first-case" name="travel" >
                 <label class="bold"  for="first-case" >aller et retour différent</label> 
             </div>
             <div class="form_options dFlex">
@@ -92,10 +92,14 @@
             </div>
             <div class="separate dFlex confort_div padding_10px ">
                 <h4 class="uppercase">confort</h4>
-                <input id="firstclass" type="radio" value="1ère classe" >
-                <label for="firstclass">1ère classe</label>
-                <input id="secondclass" type="radio" value="2nde classe" checked>
-                <label for="secondclass">seconde classe</label>
+                <div>
+                    <input type="radio" id="firstclass" name="valid" value="firstclass" >
+                    <label for="firstclass">1ère classe</label>
+                </div>
+                <div>
+                    <input type="radio" id="secondclass" name="valid" value="secondclass" checked>
+                    <label for="secondclass">seconde classe</label>
+                </div>
             </div>
             <div class="dFlex sp_btween separate align_center">
                 <div class="passengerOptions">
