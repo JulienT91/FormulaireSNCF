@@ -13,9 +13,9 @@
   font-family: "Open Sans", sans-serif;
 }
 body {
-  padding: 5px;
-  margin: auto;
+  padding: 20px;
   width: 50%;
+  margin: auto;
 }
 h1 {
   font-size: 3em;
@@ -70,6 +70,11 @@ label {
 }
 .greypart {
   padding: 0.8em;
+}
+
+/*form*/
+.form_options {
+  justify-content: center;
 }
 /*btn*/
 .whitebtn {
